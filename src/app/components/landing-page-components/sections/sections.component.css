@@ -1,0 +1,27 @@
+.sectionHead {
+    color: white;
+    text-align: center;
+    font-weight: 100;
+}
+
+.ovrLrdCtr {
+}
+
+.iconImg {
+    width: 80%;
+    height: auto;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+.iconWrap {
+    text-align: center;
+}
+
+.whtBtnClr {
+    border-radius: 30px;
+}
+
+.bgSec2 {
+    background-color: orangered;
+}
