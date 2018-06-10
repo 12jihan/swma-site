@@ -29,17 +29,31 @@
     border-radius: 30px;
 }
 
-.bgSec2 {
-}
-
 .imgHlf img{
     width: 100%;
     height: auto;
 }
 
 .ovrLay2 {
+
+}
+
+.overPerf {
+    background: orangered;
+    z-index: 1;
+    opacity: 0.85;
+    height:auto;
+    width: auto;
+    position: absolute;
+}
+
+.perfectBox {
+    background-image: url('../../../../assets/Images/blueprint.jpg');
+    height: auto;
+    width: auto;
 }
 
 .perfectBox div p {
     font-size: 20px;
+    z-index: 4;
 }
