@@ -7,6 +7,11 @@
 
 .bgSec2 {
     box-shadow: 0px 0px 10px black;
+    background-image: url('../../../../assets/Images/deskmockup.png'), url('../../../../assets/Images/blueprint.jpg');
+    background-size: 60%, 50%;
+    background-repeat: no-repeat;
+    background-position-x: 0%, 100%;
+    background-position-y: center;
 }
 
 .iconImg {
@@ -48,7 +53,6 @@
 }
 
 .perfectBox {
-    background-image: url('../../../../assets/Images/blueprint.jpg');
     height: auto;
     width: auto;
 }
