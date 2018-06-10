@@ -1,10 +1,12 @@
+
 .sectionHead {
     color: white;
     text-align: center;
     font-weight: 100;
 }
 
-.ovrLrdCtr {
+.bgSec2 {
+    box-shadow: 0px 0px 10px black;
 }
 
 .iconImg {
@@ -12,10 +14,15 @@
     height: auto;
     border: 3px solid white;
     border-radius: 20px;
+    box-shadow: 0 2px 1px black;
 }
 
 .iconWrap {
     text-align: center;
+}
+
+.iconWrap h5 {
+    text-shadow: 0 2px 1px black;
 }
 
 .whtBtnClr {
@@ -23,5 +30,16 @@
 }
 
 .bgSec2 {
-    background-color: orangered;
+}
+
+.imgHlf img{
+    width: 100%;
+    height: auto;
+}
+
+.ovrLay2 {
+}
+
+.perfectBox div p {
+    font-size: 20px;
 }

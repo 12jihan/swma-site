@@ -12,6 +12,7 @@ color end~~~~~~~~~~~~~~~~~
     height: 100vh;
     display: flex;
     align-items: center;
+    box-shadow: 0px 2px 10px black;
 }
 
 .bannerVidWrap {
