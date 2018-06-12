@@ -6,12 +6,16 @@
 }
 
 .bgSec2 {
+    height: 480px;
     box-shadow: 0px 0px 10px black;
     background-image: url('../../../../assets/Images/deskmockup.png'), url('../../../../assets/Images/blueprint.jpg');
-    background-size: 60%, 50%;
+    background-size: 60%, 100%;
     background-repeat: no-repeat;
     background-position-x: 0%, 100%;
     background-position-y: center;
+}
+.featureSec {
+    height: 480px;
 }
 
 .iconImg {
@@ -39,10 +43,6 @@
     height: auto;
 }
 
-.ovrLay2 {
-
-}
-
 .overPerf {
     background: orangered;
     z-index: 1;
@@ -60,4 +60,21 @@
 .perfectBox div p {
     font-size: 20px;
     z-index: 4;
+}
+
+.takeTime {
+    height: 480px;
+    box-shadow: 0px 2px 1px black;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url('../../../../assets/Images/flowershop2.jpg');
+    background-position-x: center, center;
+}
+
+.waitSec {
+    height: 720px;
+    background-image: url('../../../../assets/Images/applephone.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center, center; 
 }
