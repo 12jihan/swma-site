@@ -6,10 +6,19 @@
 }
 
 .navbar:hover {
-    opacity: .85;
+    opacity: .95;
 }
 
 .navlogo img{
     height: 50px;
     width: auto;
+}
+
+.navLnk li a{
+    background-color: none;
+    transition: background-color .1s;
+}
+
+.navLnk li a:hover {
+    background-color: #ff6b09;
 }
