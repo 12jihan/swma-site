@@ -1,22 +1,64 @@
+/* Main Div for all Sections Start*/
 
-.sectionHead {
+.sectionMainDiv div h1 {
     color: white;
-    text-align: center;
     font-weight: 100;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
-.bgSec2 {
-    height: 480px;
-    box-shadow: 0px 0px 10px black;
-    background-image: url('../../../../assets/Images/deskmockup.png'), url('../../../../assets/Images/blueprint.jpg');
-    background-size: 60%, 100%;
-    background-repeat: no-repeat;
-    background-position-x: 0%, 100%;
-    background-position-y: center;
+/* Main Div for all Sections End*/
+
+/* Cus Button Class start */
+
+.cusBut1 {
+    border: 2px solid white;
+    
+    padding: 8px 25px 8px 25px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    transition: background-color, box-shadow, color, 0.2s;
 }
-.featureSec {
-    height: 480px;
+
+.cusBut1:hover {
+    color: #373737;
+    box-shadow: 0 2px 0px black;
+    border-radius: 30px;
+    background-color: white;
 }
+
+/* Cus Button Class end */
+
+
+
+
+
+/* Icon Wrap Css Start*/
+
+.iconWrap {
+    text-align: center;
+}
+
+.iconWrap h5 {
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    text-shadow: 0 2px 1px black;
+}
+
+/* Icon Wrap Css End*/
+
+
+
+
+
+/* Icon Image CSS properties Start */
 
 .iconImg {
     width: 80%;
@@ -28,56 +70,79 @@
     box-shadow: 0 2px 1px black;
 }
 
-.iconWrap {
-    text-align: center;
-}
+/* Icon Image CSS properties End */
 
-.iconWrap h5 {
-    font-size: 24px;
-    text-shadow: 0 2px 1px black;
-}
 
-.whtBtnClr {
-    border-radius: 30px;
-}
 
-.imgHlf img{
-    width: 100%;
-    height: auto;
-}
 
-.overPerf {
-    background: orangered;
-    z-index: 1;
-    opacity: 0.85;
-    height:auto;
-    width: auto;
-    position: absolute;
-}
+/* Section 1 css properties start*/
 
-.perfectBox {
-    height: auto;
-    width: auto;
-}
-
-.perfectBox div p {
-    font-size: 20px;
-    z-index: 4;
-}
-
-.takeTime {
+.section1 {
     height: 480px;
-    box-shadow: 0px 2px 1px black;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../../../assets/Images/paperbg.jpg');
+    background-size:  cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Section 1 css properties end*/
+
+
+/* Section 2 css properties start*/
+
+.section2 {
+    height: 480px;
+    box-shadow: 0px 10px 25px black;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),url('../../../../assets/Images/deskmockup.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section2 p {
+    font-size: 30px;
+    position: relative;
+    margin-left: 20%;
+}
+
+/* Section 2 css properties end*/
+
+
+/* Section 3 css properties start*/
+
+.section3 {
+    height: 480px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../../../assets/Images/paperbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Section 3 css properties end*/
+
+
+/* Section 4 CSS Properties Start*/
+
+.section4 {
+    height: 480px;
+    box-shadow: 0px 10px 25px black;
+    background: linear-gradient(to right, rgba(255, 107, 9, 0.90), rgba(255, 107, 9, 0.50)), url('../../../../assets/Images/flowerpics.jpeg');
     background-size: 100%;
     background-repeat: no-repeat;
-    background-image: url('../../../../assets/Images/flowershop2.jpg');
     background-position-x: center, center;
 }
 
-.waitSec {
+/* Section 4 CSS Properties End*/
+
+
+/* Section 5 CSS Properties Start*/
+
+.section5 {
     height: 720px;
-    background-image: url('../../../../assets/Images/applephone.jpg');
+    background-image: url('../../../../assets/Images/iphonesm.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     background-position-x: center, center; 
 }
+
+/* Section 5 CSS Properties End*/
