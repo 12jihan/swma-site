@@ -23,12 +23,11 @@
     color: white;
     text-decoration: none;
     position: relative;
-    transition: background-color, box-shadow, color, 0.2s;
+    transition: color, 0.2s;
 }
 
 .cusBut1:hover {
-    color: #373737;
-    box-shadow: 0 2px 0px black;
+    color: black;
     border-radius: 30px;
     background-color: white;
 }
@@ -93,16 +92,23 @@
 .section2 {
     height: 480px;
     box-shadow: 0px 10px 25px black;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),url('../../../../assets/Images/deskmockup.png');
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)),url('../../../../assets/Images/deskmockup.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.section2 p {
-    font-size: 30px;
+.section2x1 {
     position: relative;
-    margin-left: 20%;
+    margin: 2.8% 0 0 0;
+}
+
+.section2 p {
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    position: relative;
+    margin: 0 0 45px 0;
 }
 
 /* Section 2 css properties end*/
