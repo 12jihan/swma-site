@@ -21,7 +21,6 @@
   font-weight: 500;
   color: white;
   text-decoration: none;
-  position: relative;
   transition: color, 0.2s;
 }
 
@@ -65,8 +64,7 @@
 /* Section 1 css properties start*/
 
 .section1 {
-  height: 480px;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../../../assets/Images/paperbg.jpg');
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../../../../assets/Images/paperbg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -77,7 +75,6 @@
 /* Section 2 css properties start*/
 
 .section2 {
-  height: 480px;
   box-shadow: 0px 10px 25px black;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url('../../../../assets/Images/deskmockup.png');
   background-size: cover;
@@ -103,17 +100,11 @@
 /* Section 3 css properties start*/
 
 .section3 {
-  height: 480px;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../../../assets/Images/paperbg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
-
-.section3 div {
-  align-content: center;
-}
-
 .section3 p {
   color: white;
   font-size: 30px;
@@ -127,7 +118,6 @@
 /* Section 4 CSS Properties Start*/
 
 .section4 {
-  height: 480px;
   box-shadow: 0px 10px 25px black;
   background: linear-gradient(to right, rgba(255, 107, 9, 0.90), rgba(255, 107, 9, 0.50)), url('../../../../assets/Images/flowerpics.jpeg');
   background-size: 100%;
@@ -149,17 +139,12 @@
 /* Section 5 CSS Properties Start*/
 
 .section5 {
-  height: 720px;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../../../../assets/Images/iphonesm.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
   background-position-x: center, center;
 }
 
-.section5x1 {
-  position: relative;
-  margin-top: 20%;
-}
 
 .section5x1 h1 {
     margin-bottom: 50px !important;
@@ -167,19 +152,3 @@
 
 /* Section 5 CSS Properties End*/
 
-
-/* Section 6 CSS Properties Start*/
-
-.section6 {
-
-}
-
-.section6x1 {
-
-}
-
-.section6 div {
-
-}
-
-/* Section 6 CSS Properties End*/
