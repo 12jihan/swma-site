@@ -6,7 +6,6 @@
   font-size: 50px;
   text-align: center;
   margin-top: 25px;
-  margin-bottom: 25px;
 }
 
 /* Main Div for all Sections End*/
@@ -16,6 +15,7 @@
 .cusBut1 {
   border: 2px solid white;
   padding: 8px 25px 8px 25px;
+  margin: 25px;
   border-radius: 30px;
   font-size: 20px;
   font-weight: 500;
@@ -82,17 +82,10 @@
   background-position: center;
 }
 
-.section2x1 {
-  position: relative;
-  margin: 2.8% 0 0 0;
-}
-
 .section2 p {
   color: white;
   font-size: 30px;
   font-weight: 300;
-  position: relative;
-  margin: 0 0 45px 0;
 }
 
 /* Section 2 css properties end*/
@@ -103,7 +96,6 @@
   background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../../../assets/Images/paperbg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
 }
 .section3 p {
   color: white;
@@ -117,8 +109,8 @@
 
 .section4 {
   box-shadow: 0px 10px 25px black;
-  background: linear-gradient(to right, rgba(255, 107, 9, 0.90), rgba(255, 107, 9, 0.50)), url('../../../../assets/Images/flowerpics.jpeg');
-  background-size: 100%;
+  background: linear-gradient(to right, rgba(255, 107, 9, 0.70), rgba(255, 107, 9, 0.70)), url('../../../../assets/Images/flowerpics.jpeg');
+  background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center, center;
 }
@@ -135,15 +127,11 @@
 /* Section 5 CSS Properties Start*/
 
 .section5 {
+  height: 60vh;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../../../../assets/Images/iphonesm.jpg');
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position-x: center, center;
-}
-
-
-.section5x1 h1 {
-    margin-bottom: 50px !important;
+  background-position-x: left;
 }
 
 /* Section 5 CSS Properties End*/
