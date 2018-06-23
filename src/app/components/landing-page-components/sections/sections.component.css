@@ -32,6 +32,22 @@
 
 /* Cus Button Class end */
 
+
+/*Div should cover entire section start*/
+.divCover {
+    margin: auto;
+    position: relative;
+    top:25%;
+    left:0;
+    right:0;
+    bottom:0;
+
+}
+
+
+/*Div should cover entire section end*/
+
+
 /* Icon Wrap Css Start*/
 
 .iconWrap {
