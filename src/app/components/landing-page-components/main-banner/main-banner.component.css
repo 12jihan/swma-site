@@ -70,3 +70,14 @@
 .bannerContent a {
     border-radius: 30px;
 }
+
+.bannerContent img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -3% 0 0 -125px; 
+    height: auto;
+    width: 250px;
+    z-index: 0;
+    opacity: 0.10;
+}
