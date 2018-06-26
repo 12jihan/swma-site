@@ -1,83 +1,81 @@
 /* Cus Button Class start */
 
 .cusBut1 {
-    border: 2px solid white;
-    padding: 8px 25px 8px 25px;
-    margin: 25px;
-    border-radius: 30px;
-    font-size: 20px;
-    font-weight: 500;
-    color: white;
-    text-decoration: none;
-    transition: color, 0.2s;
-  }
-  
-  .cusBut1:hover {
-    color: black;
-    border-radius: 30px;
-    background-color: white;
-  }
-  
-  /* Cus Button Class end */
+  border: 2px solid white;
+  padding: 8px 25px 8px 25px;
+  margin-top: 25px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+  transition: color, 0.2s;
+}
+
+.cusBut1:hover {
+  color: #555;
+  border-radius: 30px;
+  background-color: white;
+}
+
+/* Cus Button Class end */
 
 .bannerHeader {
-    height: 100vh;
-    display: flex;
-    align-items: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .bannerVidWrap {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    box-shadow: 0 1px 15px black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  box-shadow: 0 1px 15px black;
 }
 
-.bannerVidWrap video{
-    min-width: 100%;
-    min-height: 100%;
+.bannerVidWrap video {
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .bannerOvr {
-    height: 100vh;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #ff6b09;
-    z-index: 1;
-    opacity: 0.75;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #ff6b09;
+  z-index: 1;
+  opacity: 0.75;
 }
-
 
 /*Video Banner Content Here*/
 
 .bannerContent {
-    text-align: center;
-    margin-top: 5%;
-    z-index: 3;
+  text-align: center;
+  margin-top: 5vh;
+  z-index: 3;
 }
 
-
 .bannerContent h1 {
-    font-size: 40px;
-    font-weight: 100;
+  font-size: 45px;
+  font-weight: 100;
 }
 
 .bannerContent a {
-    border-radius: 30px;
+  border-radius: 30px;
 }
 
 .bannerContent img {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin: -10% 0 0 -125px; 
-    height: auto;
-    width: 250px;
-    z-index: 0;
-    opacity: 0.10;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin: -7vh 0 0 -125px;
+  height: auto;
+  width: 250px;
+  z-index: 0;
+  opacity: 0.25;
 }

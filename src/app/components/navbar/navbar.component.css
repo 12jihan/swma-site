@@ -6,11 +6,11 @@
 }
 
 .navbar:hover {
-    opacity: .95;
+    opacity: .98;
 }
 
 .navlogo img{
-    height: 50px;
+    height: 45px;
     width: auto;
 }
 
@@ -22,3 +22,9 @@
 .navLnk li a:hover {
     background-color: #ff6b09;
 }
+
+/* So for any of this to work you're going to have to make a media query for the mobile view or vice versa */
+
+/* option 1 - change it now so when it loads it'll load as the padding with 0 as if you're already on a mobile device, then once it's done loading and checks the screen size it'll switch to the appropriate resolution if necessary */
+
+/*option 2 - just media query it so that it'll detect the screen size right away and then after that it will minify everything if it deems it necessary, depending on the screen size. Though just food for thought, this method is slower by a bit so take care when using this. If you need to get it out quickly then sure this will do, but if you have time then chill and get it to work like it's supposed to. Thanks ;) */
