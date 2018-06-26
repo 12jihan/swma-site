@@ -52,16 +52,19 @@
     opacity: 0.75;
 }
 
-.bannerContent {
-    text-align: center;
-    margin-bottom: 150epx;
-    z-index: 3;
-}
 
 /*Video Banner Content Here*/
 
+.bannerContent {
+    text-align: center;
+    margin-top: 5%;
+    z-index: 3;
+}
+
+
 .bannerContent h1 {
-    color: #222;
+    font-size: 40px;
+    font-weight: 100;
 }
 
 .bannerContent a {
@@ -72,7 +75,7 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    margin: -3% 0 0 -125px; 
+    margin: -10% 0 0 -125px; 
     height: auto;
     width: 250px;
     z-index: 0;
