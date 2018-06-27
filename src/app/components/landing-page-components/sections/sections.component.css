@@ -4,7 +4,7 @@
 
 .sectionMainDiv div h1 {
   color: white;
-  font-size: 45px;
+  font-size: 38px;
   font-weight: 100;
   text-align: center;
   margin-top: 40px;
@@ -12,10 +12,10 @@
 
 .sectionMainDiv div p {
   color: white;
-  font-size: 24px;
+  font-size: 25px;
   font-weight: 200;
   margin: 0 35px;
-  text-align: left;
+  text-align: unset;
 }
 /* Main Div for all Sections End*/
 
@@ -66,7 +66,6 @@
     left:0;
     right:0;
     bottom:0;
-
 }
 
 
@@ -136,10 +135,6 @@
   background-position: center;
 }
 
-.section2 p {
-}
-
-
 /* Section 2 css properties end*/
 
 /* Section 3 css properties start*/
@@ -190,3 +185,82 @@
 }
 /* Section 5 CSS Properties End*/
 
+
+
+/* Media Queries!!!!!! */
+
+@media only screen and (min-width: 767px) {
+
+  .iconWrap h5 {
+    display: inherit;
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    text-shadow: 0 2px 1px black;
+  }
+
+}
+
+
+@media only screen and (min-width: 1023px) {
+
+  .iconImg {
+    width: 125px;
+    height: auto;
+    padding: 25px;
+    margin: 20px;
+    border: 3px solid white;
+    border-radius: 20px;
+    box-shadow: 0 2px 1px black;
+  }
+
+  /* Main Div for all Sections Start*/
+
+
+
+.sectionMainDiv div h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.sectionMainDiv div p {
+  color: white;
+  font-size: 35px;
+  font-weight: 200;
+  margin: 0 35px;
+  padding-left: 25px;
+  margin-right: 40%;
+  text-align: unset;
+}
+/* Main Div for all Sections End*/
+
+
+
+/* <hr> dividers Start */
+
+.hrDivider {
+  width: 85px;
+  border-top: 1px dashed white;
+  margin-bottom: 40px;
+}
+
+/* <hr> dividers End */
+
+
+  .section2 {
+    box-shadow: 0px 10px 25px black;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.65)), url('../../../../assets/Images/deskmockup.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .section2 h1 {
+    text-align: left;
+    margin-right: 54%
+  }
+
+
+}
