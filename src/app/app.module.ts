@@ -8,6 +8,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { MainBannerComponent } from './components/landing-page-components/main-banner/main-banner.component';
 import { SectionsComponent } from './components/landing-page-components/sections/sections.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { LoginComponent } from './components/login/login/login.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { FooterComponent } from './components/footer/footer.component';
     NavbarComponent,
     MainBannerComponent,
     SectionsComponent,
-    FooterComponent
+    FooterComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

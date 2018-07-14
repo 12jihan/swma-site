@@ -1,0 +1,36 @@
+.loginFull {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.logBox {
+    color: #ff6b09;
+    background: white;
+    border-radius: 12px;
+    height: 300px;
+    width: 280px;
+    box-shadow: black 0px 5px 8px;
+}
+.logBox h1 {
+    color: #555;
+}
+.logBox hr {
+    color: #555;
+}
+
+.boxContainer {
+    margin-top: 60px;
+}
+
+.boxContainer a {
+    margin-top: -15px; 
+    padding: 10px 50px 10px 50px; 
+    border: 1px solid #ff6b09;
+    transition: background, color, 0.4s;
+}
+
+.boxContainer a:hover {
+    color: white;
+    background: #ff6b09;
+}
