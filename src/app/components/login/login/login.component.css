@@ -5,7 +5,7 @@
 }
 
 .logBox {
-    color: #ff6b09;
+    color: #444;
     background: white;
     border-radius: 12px;
     height: 300px;
@@ -26,11 +26,13 @@
 .boxContainer a {
     margin-top: -15px; 
     padding: 10px 50px 10px 50px; 
-    border: 1px solid #ff6b09;
+    border: 1px solid #444;
+    border-radius: 30px;
     transition: background, color, 0.4s;
 }
 
 .boxContainer a:hover {
     color: white;
     background: #ff6b09;
+    border: 1px solid #ff6b09;
 }
