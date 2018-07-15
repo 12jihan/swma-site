@@ -9,6 +9,9 @@ import { MainBannerComponent } from './components/landing-page-components/main-b
 import { SectionsComponent } from './components/landing-page-components/sections/sections.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LoginComponent } from './components/login/login/login.component';
+import { RoundzComponent } from './components/roundz/roundz.component';
+import { RequestComponent } from './components/request/request.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 
 @NgModule({
@@ -18,7 +21,10 @@ import { LoginComponent } from './components/login/login/login.component';
     MainBannerComponent,
     SectionsComponent,
     FooterComponent,
-    LoginComponent
+    LoginComponent,
+    RoundzComponent,
+    RequestComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
