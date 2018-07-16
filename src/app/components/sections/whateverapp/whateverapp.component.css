@@ -1,0 +1,22 @@
+.na1, .pwa1 {
+    height: 400px;
+    width: auto;
+    opacity: .5;
+    transition: height, opacity, .5s;
+}
+
+.na1 img {
+    height: 100%;
+    width: auto;
+}
+
+.pwa1 img {
+    height: 100%;
+    width: auto;
+}
+
+.na1:hover, .pwa1:hover {
+    height: 500px;
+    width: auto;
+    opacity: 1;
+}

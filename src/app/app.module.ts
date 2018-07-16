@@ -12,6 +12,7 @@ import { LoginComponent } from './components/login/login/login.component';
 import { RoundzComponent } from './components/roundz/roundz.component';
 import { RequestComponent } from './components/request/request.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { WhateverappComponent } from './components/sections/whateverapp/whateverapp.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
     LoginComponent,
     RoundzComponent,
     RequestComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    WhateverappComponent
   ],
   imports: [
     BrowserModule,
