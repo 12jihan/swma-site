@@ -13,6 +13,8 @@ import { RoundzComponent } from './components/roundz/roundz.component';
 import { RequestComponent } from './components/request/request.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { WhateverappComponent } from './components/sections/whateverapp/whateverapp.component';
+import { WebappComponent } from './components/webapp/webapp.component';
+import { NativeappComponent } from './components/nativeapp/nativeapp.component';
 
 
 @NgModule({
@@ -26,7 +28,9 @@ import { WhateverappComponent } from './components/sections/whateverapp/whatever
     RoundzComponent,
     RequestComponent,
     PageNotFoundComponent,
-    WhateverappComponent
+    WhateverappComponent,
+    WebappComponent,
+    NativeappComponent
   ],
   imports: [
     BrowserModule,

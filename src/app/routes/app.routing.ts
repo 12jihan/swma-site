@@ -6,6 +6,8 @@ import { LoginComponent } from '../components/login/login/login.component';
 import { RoundzComponent } from '../components/roundz/roundz.component';
 import { RequestComponent } from '../components/request/request.component';
 import { PageNotFoundComponent } from '../components/page-not-found/page-not-found.component';
+import { WebappComponent } from '../components/webapp/webapp.component';
+import { NativeappComponent } from '../components/nativeapp/nativeapp.component';
 
 const appRoutes: Routes = [
     {
@@ -31,6 +33,16 @@ const appRoutes: Routes = [
         path: 'login',
         component: LoginComponent,
         data: { title: 'Login' }
+    },
+    {
+        path: 'webapp',
+        component: WebappComponent,
+        data: { title: 'Web App' }
+    },
+    {
+        path: 'nativeapp',
+        component: NativeappComponent,
+        data: { title: 'Native App' }
     },
     {
         path: '**',
